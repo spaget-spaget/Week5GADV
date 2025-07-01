@@ -9,9 +9,12 @@ public class NewBehaviourScript : MonoBehaviour
     public float speed = 6.0f;
     public float jumpSpeed = 8.0f;
     public float gravity = 20.0f;
-    public float radius = 5.0F;
-    public float power = 10000.0F;
+    public float explosionRadius = 5f;
+    public float kickStrength = 500f;
+    public float explosionForce = 100f;
+    public float upwardsModifier = 0.5f;
     private Vector3 moveDirection = Vector3.zero;
+    private Rigidbody rb;
 
     void Start()
     {
@@ -20,6 +23,8 @@ public class NewBehaviourScript : MonoBehaviour
     }
     void Update()
     {
+        CheckExplosion();
+        CheckKick();
         //Player movement. 
         if (characterController.isGrounded)
         {
@@ -34,52 +39,52 @@ public class NewBehaviourScript : MonoBehaviour
         //Gravity
         moveDirection.y -= gravity * Time.deltaTime;
         characterController.Move(moveDirection * Time.deltaTime);
-        CheckExplosion();
+        
     }
     void CheckExplosion()
     {
         //if e is pressed
         if (Input.GetKeyDown(KeyCode.E))
         {
-            //explosion happens on character's position
-            Vector3 explosionPos = transform.position;
-            //detects how many colliders are hit within radius
-            Collider[] colliders = Physics.OverlapSphere(explosionPos, radius);
-            // for each collider
+            Vector3 explosionPosition = transform.position;
+
+            // Get all colliders within the explosion radius
+            Collider[] colliders = Physics.OverlapSphere(explosionPosition, explosionRadius);
+
             foreach (Collider hit in colliders)
             {
                 Rigidbody rb = hit.GetComponent<Rigidbody>();
-                //push them away with explosion force
+
                 if (rb != null)
                 {
-                    rb.AddExplosionForce(power, explosionPos, radius, 100.0F);
+                    rb.AddExplosionForce(explosionForce, explosionPosition, explosionRadius, upwardsModifier, ForceMode.Impulse);
                 }
             }
 
             Debug.Log("Explosion triggered");
         }
     }
-    /*void CheckKick()
+    void CheckKick()
     {
-        //if k is pressed
+        //if e is pressed
         if (Input.GetKeyDown(KeyCode.K))
         {
-            //explosion happens on character's position
-            Vector3 kickPos = transform.position;
-            //detects how many colliders are hit within radius
-            Collider[] colliders = Physics.OverlapCube(kickPos, radius);
-            // for each collider
+            Vector3 explosionPosition = transform.position;
+
+            // Get all colliders within the explosion radius
+            Collider[] colliders = Physics.OverlapSphere(explosionPosition, explosionRadius);
+
             foreach (Collider hit in colliders)
             {
                 Rigidbody rb = hit.GetComponent<Rigidbody>();
-                //push them away with explosion force
+
                 if (rb != null)
                 {
-                    rb.AddExplosionForce(power, kickPos, radius, 100.0F);
+                    rb.AddForce(transform.forward * kickStrength, ForceMode.Impulse);
+                    Debug.Log("Kick applied!");
                 }
             }
 
-            Debug.Log("Kick triggered");
         }
-    }*/
+    }
 }
