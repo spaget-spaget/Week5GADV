@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Forces/q10/q10.unity
+- path: Assets/Forces/q7/q7.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
