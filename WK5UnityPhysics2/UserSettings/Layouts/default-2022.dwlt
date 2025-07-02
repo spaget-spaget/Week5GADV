@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Scene
   m_RootView: {fileID: 3}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 0
     width: 295.19995
     height: 722.8
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -716,9 +716,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -4.3572726, y: -2.3585486, z: -1.9221635}
+    m_Target: {x: -1.6780723, y: -0.28058678, z: 1.8055245}
     speed: 2
-    m_Value: {x: -4.3572726, y: -2.3585486, z: -1.9221635}
+    m_Value: {x: -1.6780723, y: -0.28058678, z: 1.8055245}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -764,13 +764,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.40174046, y: 0.0051849056, z: -0.0022812178, w: -0.91576844}
+    m_Target: {x: 0.23122978, y: 0.10053746, z: -0.023997862, w: 0.9674268}
     speed: 2
-    m_Value: {x: -0.40282962, y: 0.004083714, z: -0.0018039842, w: -0.9152642}
+    m_Value: {x: 0.23122223, y: 0.10053417, z: -0.023997078, w: 0.9673952}
   m_Size:
-    m_Target: 5.870787
+    m_Target: 7.2540317
     speed: 2
-    m_Value: 5.870787
+    m_Value: 7.2540317
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -832,9 +832,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 2aafffff
-      m_LastClickedID: -20694
-      m_ExpandedIDs: c0b0ffff16b5ffff9cbdffff1ec0ffff16c9ffff02cdffff30fbffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: c4f8ffff30fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1001,7 +1001,7 @@ MonoBehaviour:
     m_SkipHidden: 1
     m_SearchArea: 1
     m_Folders:
-    - Assets/Forces/q10
+    - Assets/Forces/q9
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1009,16 +1009,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 71
   m_LastFolders:
-  - Assets/Forces/q10
+  - Assets/Forces/q9
   m_LastFoldersGridSize: 71
   m_LastProjectPath: C:\Users\olive\GADVWORKSHEETSNEW\Week5\Week5GADV\WK5UnityPhysics2
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: fa620000
-    m_LastClickedID: 25338
-    m_ExpandedIDs: 00000000f6590000fc590000
+    m_SelectedIDs: 545a0000
+    m_LastClickedID: 23124
+    m_ExpandedIDs: 000000003c5a0000485a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1046,7 +1046,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f6590000
+    m_ExpandedIDs: 000000003c5a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

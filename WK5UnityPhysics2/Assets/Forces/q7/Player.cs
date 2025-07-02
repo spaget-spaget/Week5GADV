@@ -25,6 +25,7 @@ public class NewBehaviourScript : MonoBehaviour
     {
         CheckExplosion();
         CheckKick();
+        CheckLineOfSight();
         //Player movement. 
         if (characterController.isGrounded)
         {
@@ -87,4 +88,30 @@ public class NewBehaviourScript : MonoBehaviour
 
         }
     }
+    
+    void CheckLineOfSight()
+    {
+        GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+        RaycastHit hit;
+
+        foreach (GameObject enemy in enemies)
+        {
+            Vector3 vec = enemy.transform.position - transform.position;
+            Debug.DrawRay(transform.position, vec.normalized * 30f, Color.yellow);
+
+            if (Physics.Raycast(transform.position, vec, out hit, vec.magnitude))
+            {
+                if (hit.collider.gameObject == enemy)
+                {
+                    enemy.GetComponent<Renderer>().material.color = Color.green;
+                }
+                else
+                {
+                    enemy.GetComponent<Renderer>().material.color = Color.red;
+                }
+            }
+        }
+    }
 }
+
+
