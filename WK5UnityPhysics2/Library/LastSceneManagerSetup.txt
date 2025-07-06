@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Forces/q7/q7.unity
+- path: Assets/Forces/Physics game tutorial/Scenes/Main.scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
