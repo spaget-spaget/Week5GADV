@@ -15,7 +15,7 @@ C:/Users/olive/GADVWORKSHEETSNEW/Week5/Week5GADV/WK5UnityPhysics2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61914
+52396
 Successfully changed project path to: C:/Users/olive/GADVWORKSHEETSNEW/Week5/Week5GADV/WK5UnityPhysics2
 C:/Users/olive/GADVWORKSHEETSNEW/Week5/Week5GADV/WK5UnityPhysics2
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/olive/GADVWORKSHEETSNEW/Week5/Week5GADV/WK5UnityPhysics2
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [41320] Host "[IP] 172.30.79.62 [Port] 0 [Flags] 2 [Guid] 3919055184 [EditorId] 3919055184 [Version] 1048832 [Id] WindowsEditor(7,spaget) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [47256] Host "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 532403345 [EditorId] 532403345 [Version] 1048832 [Id] WindowsEditor(7,spaget) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [41320] Host "[IP] 172.30.79.62 [Port] 0 [Flags] 2 [Guid] 3919055184 [EditorId] 3919055184 [Version] 1048832 [Id] WindowsEditor(7,spaget) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [47256] Host "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 532403345 [EditorId] 532403345 [Version] 1048832 [Id] WindowsEditor(7,spaget) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 9.30 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 23.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.24f1 (334eb2a0b267)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56064
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56548
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004165 seconds.
-- Loaded All Assemblies, in  0.301 seconds
+Registered in 0.023504 seconds.
+- Loaded All Assemblies, in  1.299 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.235 seconds
-Domain Reload Profiling: 535ms
-	BeginReloadAssembly (99ms)
+- Finished resetting the current domain, in  0.701 seconds
+Domain Reload Profiling: 1993ms
+	BeginReloadAssembly (437ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (118ms)
-		LoadAssemblies (98ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (128ms)
+	RebuildNativeTypeToScriptingClass (42ms)
+	initialDomainReloadingComplete (185ms)
+	LoadAllAssembliesAndSetupDomain (499ms)
+		LoadAssemblies (427ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (116ms)
-			TypeCache.Refresh (115ms)
-				TypeCache.ScanAssembly (103ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (235ms)
+		AnalyzeDomain (470ms)
+			TypeCache.Refresh (462ms)
+				TypeCache.ScanAssembly (425ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (702ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (181ms)
+		SetupLoadedEditorAssemblies (492ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (14ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (124ms)
-			ProcessInitializeOnLoadMethodAttributes (41ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (332ms)
+			ProcessInitializeOnLoadMethodAttributes (123ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,51 +115,51 @@ Domain Reload Profiling: 535ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.536 seconds
-Refreshing native plugins compatible for Editor in 3.01 ms, found 3 plugins.
+- Loaded All Assemblies, in  2.263 seconds
+Refreshing native plugins compatible for Editor in 8.90 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.414 seconds
-Domain Reload Profiling: 948ms
-	BeginReloadAssembly (138ms)
+- Finished resetting the current domain, in  1.945 seconds
+Domain Reload Profiling: 4202ms
+	BeginReloadAssembly (496ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (18ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (18ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (328ms)
-		LoadAssemblies (275ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (157ms)
+	RebuildNativeTypeToScriptingClass (37ms)
+	initialDomainReloadingComplete (124ms)
+	LoadAllAssembliesAndSetupDomain (1443ms)
+		LoadAssemblies (1109ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (138ms)
-			TypeCache.Refresh (120ms)
-				TypeCache.ScanAssembly (109ms)
-			ScanForSourceGeneratedMonoScriptInfo (13ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (414ms)
+		AnalyzeDomain (633ms)
+			TypeCache.Refresh (568ms)
+				TypeCache.ScanAssembly (525ms)
+			ScanForSourceGeneratedMonoScriptInfo (45ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1946ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (293ms)
+		SetupLoadedEditorAssemblies (1438ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (10ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (43ms)
-			ProcessInitializeOnLoadAttributes (223ms)
-			ProcessInitializeOnLoadMethodAttributes (15ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (170ms)
+			ProcessInitializeOnLoadAttributes (1151ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 2.45 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (25ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 10.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3140 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 33 unused Assets / (57.0 KB). Loaded Objects now: 3601.
-Memory consumption went from 122.0 MB to 121.9 MB.
-Total: 2.095900 ms (FindLiveObjects: 0.150700 ms CreateObjectMapping: 0.052500 ms MarkObjects: 1.805400 ms  DeleteObjects: 0.086200 ms)
+Memory consumption went from 122.1 MB to 122.0 MB.
+Total: 27.039000 ms (FindLiveObjects: 0.524600 ms CreateObjectMapping: 0.263300 ms MarkObjects: 26.005900 ms  DeleteObjects: 0.242300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -176,41 +176,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1645885.554193 seconds.
-  path: Assets/Forces/2Dexercises
-  artifactKey: Guid(6eee5d663c145fb42bf456a01ed3959b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forces/2Dexercises using Guid(6eee5d663c145fb42bf456a01ed3959b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc8175249f849cb56614200f07b13f9') in 0.002136 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 9.231785 seconds.
-  path: Assets/Forces/2Dexercises/2dexercise1.unity
-  artifactKey: Guid(a68f0ae1f8d9fe34c878bb52db88b31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forces/2Dexercises/2dexercise1.unity using Guid(a68f0ae1f8d9fe34c878bb52db88b31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59701b737d98ae37d2ab8876fca98a8d') in 0.000466 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 404.055141 seconds.
-  path: Assets/Forces/q7/Capsule.prefab
-  artifactKey: Guid(02fb365dad243cd4b9eeed1e28b4da83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forces/q7/Capsule.prefab using Guid(02fb365dad243cd4b9eeed1e28b4da83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d3d2c21fdeedd592f4dcc1b841a462') in 0.095671 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.809208 seconds.
-  path: Assets/Forces/q7/q7.unity
-  artifactKey: Guid(1be87563363d41645bf4aa1ad06b82ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forces/q7/q7.unity using Guid(1be87563363d41645bf4aa1ad06b82ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c1806a4984567b07006e63cbd16b191') in 0.000466 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 4.438632 seconds.
-  path: Assets/Forces/2Dexercises/2dexercise1.unity
-  artifactKey: Guid(a68f0ae1f8d9fe34c878bb52db88b31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Forces/2Dexercises/2dexercise1.unity using Guid(a68f0ae1f8d9fe34c878bb52db88b31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d026ac759b27e7014b55d4c0250e281') in 0.000632 seconds
+  Time since last request: 2000186.522108 seconds.
+  path: Assets/Forces/Physics game tutorial
+  artifactKey: Guid(a60288c5e115e87449237a50f5801a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forces/Physics game tutorial using Guid(a60288c5e115e87449237a50f5801a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3ca93a12ee8bbaa7c0a77921636b85e') in 0.006069 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
