@@ -477,6 +477,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Woodblock (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6934878379930117580, guid: facbfc9a000bc9a4da9bb83b6352cc5b, type: 3}
+      propertyPath: m_TagString
+      value: box
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -572,6 +576,10 @@ PrefabInstance:
     - target: {fileID: 6934878379930117580, guid: facbfc9a000bc9a4da9bb83b6352cc5b, type: 3}
       propertyPath: m_Name
       value: Woodblock (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6934878379930117580, guid: facbfc9a000bc9a4da9bb83b6352cc5b, type: 3}
+      propertyPath: m_TagString
+      value: box
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -697,6 +705,10 @@ PrefabInstance:
     - target: {fileID: 6934878379930117580, guid: facbfc9a000bc9a4da9bb83b6352cc5b, type: 3}
       propertyPath: m_Name
       value: Woodblock (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6934878379930117580, guid: facbfc9a000bc9a4da9bb83b6352cc5b, type: 3}
+      propertyPath: m_TagString
+      value: box
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -906,6 +918,71 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &1794411727
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 19359977220177502, guid: 7ec6dbfb8b0b4994e88b4d7d710da026, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 19359977220177502, guid: 7ec6dbfb8b0b4994e88b4d7d710da026, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 19359977220177502, guid: 7ec6dbfb8b0b4994e88b4d7d710da026, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 19359977220177502, guid: 7ec6dbfb8b0b4994e88b4d7d710da026, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 19359977220177502, guid: 7ec6dbfb8b0b4994e88b4d7d710da026, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.062078
+      objectReference: {fileID: 0}
+    - target: {fileID: 19359977220177502, guid: 7ec6dbfb8b0b4994e88b4d7d710da026, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 19359977220177502, guid: 7ec6dbfb8b0b4994e88b4d7d710da026, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19359977220177502, guid: 7ec6dbfb8b0b4994e88b4d7d710da026, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19359977220177502, guid: 7ec6dbfb8b0b4994e88b4d7d710da026, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19359977220177502, guid: 7ec6dbfb8b0b4994e88b4d7d710da026, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19359977220177502, guid: 7ec6dbfb8b0b4994e88b4d7d710da026, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19359977220177502, guid: 7ec6dbfb8b0b4994e88b4d7d710da026, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6934878379930117580, guid: 7ec6dbfb8b0b4994e88b4d7d710da026, type: 3}
+      propertyPath: m_Name
+      value: ConcreteBlock
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7ec6dbfb8b0b4994e88b4d7d710da026, type: 3}
 --- !u!1 &1888246700
 GameObject:
   m_ObjectHideFlags: 0
@@ -1033,6 +1110,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Woodblock (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6934878379930117580, guid: facbfc9a000bc9a4da9bb83b6352cc5b, type: 3}
+      propertyPath: m_TagString
+      value: box
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1096,6 +1177,10 @@ PrefabInstance:
     - target: {fileID: 6934878379930117580, guid: facbfc9a000bc9a4da9bb83b6352cc5b, type: 3}
       propertyPath: m_Name
       value: Woodblock (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6934878379930117580, guid: facbfc9a000bc9a4da9bb83b6352cc5b, type: 3}
+      propertyPath: m_TagString
+      value: box
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1374,6 +1459,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Woodblock
       objectReference: {fileID: 0}
+    - target: {fileID: 6934878379930117580, guid: facbfc9a000bc9a4da9bb83b6352cc5b, type: 3}
+      propertyPath: m_TagString
+      value: box
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1399,3 +1488,4 @@ SceneRoots:
   - {fileID: 670099572}
   - {fileID: 1888246702}
   - {fileID: 1082672832}
+  - {fileID: 1794411727}

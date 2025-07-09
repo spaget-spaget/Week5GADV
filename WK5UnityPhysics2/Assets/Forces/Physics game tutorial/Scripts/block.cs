@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class block : MonoBehaviour
 {
 
@@ -20,10 +20,10 @@ public class block : MonoBehaviour
         {
             Destroy(gameObject);
             // restart the scene if this was the last box
-            GameObject[] boxes = GameObject.FindGameObjectsWithTag("Box");
+            GameObject[] boxes = GameObject.FindGameObjectsWithTag("box");
             if (boxes.Length <= 1)
             {
-                SceneManager.LoadScene("Main");
+                SceneManager.LoadScene("Main.scene");
             }
         }
     }

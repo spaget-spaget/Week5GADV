@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Forces/Physics game tutorial/Scenes/Main.scene.unity
+    guid: 506d83d604672a749bec767530299585
   m_configObjects: {}
